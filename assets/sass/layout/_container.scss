@@ -1,0 +1,47 @@
+@use '../themes/colors';
+
+.container__skills {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .container__skills {
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.fa-html5 {
+    color: colors.$red;
+}
+
+.fa-css3-alt {
+    color: colors.$lightblue;
+}
+
+.fa-sass {
+    color: colors.$pink;
+}
+
+.fa-bootstrap {
+    color: colors.$purple;
+}
+
+.fa-git-alt {
+    color: colors.$orange;
+}
+
+.fa-github {
+    color: colors.$black;
+}
+
+.fa-js {
+    color: colors.$mustard;
+}
+
+.fa-vuejs {
+    color: colors.$aquamarine;
+}

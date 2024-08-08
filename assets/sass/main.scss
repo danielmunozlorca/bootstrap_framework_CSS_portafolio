@@ -1,0 +1,22 @@
+//Paleta personalizada bootstrap
+$primary: #006769;
+$secondary: #40A578;
+$success: #d6fdcb;
+$info: #E6FF94;
+$warning: #FF8225;
+$danger: #B43F3F;
+$light: #F8EDED;
+$dark: #173B45;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Abstracts
+// Vendors
+// Base
+// Layout
+@import 'layout/container';
+// Components
+@import 'components/images';
+// Pages
+// Themes
+@import 'themes/colors'
